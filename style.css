@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    width: 265px;
+    height: 48px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 45px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+button {
+    border-style: none;
+    border-radius: 45px ;
+    background-color: rgb(255, 255, 255, 0);
+    width: 80px;
+    height: 40px;
+    
+
+}
+button:hover {
+    border-radius: 25px ;
+    background-color: rgb(255, 255, 255);
+    width: 80px;
+    height: 40px;
+}
