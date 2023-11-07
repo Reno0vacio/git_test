@@ -1,17 +1,16 @@
-body {
-    display: flex;
-    justify-content: center;
-}
 nav {
     display: flex;
     width: 265px;
     height: 48px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgb(240, 240, 240);
     border-radius: 45px;
     margin-top: 20px;
     align-items: center;
     justify-content: space-around;
 }
+
 button {
     border-style: none;
     border-radius: 45px ;
@@ -26,4 +25,38 @@ button:hover {
     background-color: rgb(255, 255, 255);
     width: 80px;
     height: 40px;
+}
+main {
+    text-align: center;
+    margin-top: 200px;
+}
+h1 {
+    width: 800px;
+    margin: auto;
+    font-size: 70px;
+}
+.expertise {
+    margin-top: 40px;
+}
+.expertise-colors {
+    display: inline-block;
+    background-color: #e8e5e480;
+    border-radius: 10px ;
+    width: 80px;
+}
+p {
+    display: inline-block;
+}
+.images {
+    display: grid;
+}
+.fadeup {
+    transform: translateY(50px);
+    opacity: 0;
+    transition-property: 1s;
+    transition-timing-function: linera;
+}
+.in-view {
+    transform: none;
+    opacity: 1;
 }
